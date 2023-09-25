@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    background-image: url(../images/bac.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+main{
+    background-color: white;
+    width: 50%;
+    display: block;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+#cityInput {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#searchBtn {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    font-size: 20px;
+    color: green;
+    font-size: 20px;
+}
