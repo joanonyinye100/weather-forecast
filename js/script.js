@@ -11,7 +11,7 @@ let searchBtn = document.getElementById("searchBtn");
  fetch(apiUrl)
  .then(function(response) {
    if (!response.ok) {
-     throw new Error('Network response was not ok');
+     throw new Error('Network ERROR');
    }
    return response.json();
  })
