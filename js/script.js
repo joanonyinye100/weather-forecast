@@ -6,7 +6,7 @@ let searchBtn = document.getElementById("searchBtn");
  function display(){
     let city = cityInput.value;
     let APIKey = `9db0c65413fe490e9d4797b75386d408`;
-    let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}`;
 
  fetch(apiUrl)
  .then(function(response) {
